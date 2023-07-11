@@ -190,11 +190,13 @@ h6.services_text {
   justify-content: center;
   align-items: center;
   margin: 80px 0;
+  background-size: cover;
 }
 
 .latest_deals input {
-  padding: 15px 200px;
+  padding: 15px 20px;
   border: none;
+  width: 500px;
 }
 
 .subscribe {
