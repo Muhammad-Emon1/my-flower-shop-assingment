@@ -121,6 +121,10 @@
   padding: 50px;
 }
 
+.services div img{
+  height: 65px;
+}
+
 h6.services_text {
   color: rgba(39, 39, 39, 0.8);
   text-align: center;
@@ -233,4 +237,56 @@ footer h1 span {
   font-size: 16px;
   font-weight: 400;
   margin: 20px 0;
+}
+
+.testimonials {
+  background-color: #e554731a;
+  padding: 40px;
+}
+
+.testimonial_heading {
+  font-size: 30px;
+  color: #eb7c94;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.testimonials_description {
+  padding: 10px 350px;
+  margin:0px 0 50px 0;
+}
+
+.testimonial {
+  background-color: rgb(255, 248, 248);
+  padding: 45px 40px 45px 10px;
+  margin: 15px;
+  border-radius: 7px;
+  width: 270px;
+  box-shadow:1px 1px 50px grey ;
+}
+
+.customer_img_container {
+  background-color: aqua;
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+}
+
+.customer_img_container img {
+  height: 100px;
+}
+
+.customer_name {
+  padding: 10px 0;
+  font-size: 25px;
+}
+
+.customer_review {
+  font-size: 18px;
+  color: #241f1f99;
+}
+
+.testimonial_container {
+  display: flex;
+  justify-content: space-around;
 }
