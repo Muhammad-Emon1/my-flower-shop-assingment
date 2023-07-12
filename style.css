@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-/* Main seltion style starts here */
+/* Main section style starts here */
 
 .hero {
   background: #e554731a;
@@ -83,7 +83,7 @@
 .img_container {
   text-align: center;
   width: 100%;
-  margin: 0 5px;
+  margin: 0 10px;
 }
 
 .img1,
@@ -104,6 +104,8 @@
   height: 350px;
   border-radius: 50% 50% 0 0;
   margin-bottom: 10px;
+  width: 100%;
+  box-shadow: 3px 3px 6px grey;
 }
 
 .img_container h6 {
